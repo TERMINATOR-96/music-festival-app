@@ -30,11 +30,14 @@
                     </div>
                 </div>
                 <div class="block md:hidden ml-auto pr-4 my-auto cursor-pointer">
-                    <button id="mobile-menu-button" class="group">
+                    <div id="mobile-menu-button" class="group peer">
                         <div class="top-0 group-open:rotate-45 group-open:top-2 relative bg-zinc-200 rounded-full w-8 h-1 transition-all"></div>
                         <div class="opacity-100 group-open:opacity-0 bg-zinc-200 rounded-full w-8 h-1 mt-1 transition-all"></div>
                         <div class="top-0 group-open:-rotate-45 group-open:-top-2 relative bg-zinc-200 rounded-full w-8 h-1 mt-1 transition-all"></div>
-                    </button>
+                    </div>
+                    <div class="peer-open:block hidden absolute bg-gradient-to-r from-rose-500 to-pink-500 w-full left-0 top-[62px]">
+                        Mobile menu
+                    </div>
                 </div>
                 <div class="hidden flex-1 md:flex items-center justify-end">
                     <div class="menu-item">
