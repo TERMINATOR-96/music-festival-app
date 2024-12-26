@@ -675,6 +675,10 @@ h6{
   position: sticky;
 }
 
+.-top-8{
+  top: -2rem;
+}
+
 .left-0{
   left: 0px;
 }
@@ -693,14 +697,6 @@ h6{
 
 .top-full{
   top: 100%;
-}
-
-.-top-8{
-  top: -2rem;
-}
-
-.-top-9{
-  top: -2.25rem;
 }
 
 .mx-auto{
@@ -1069,6 +1065,11 @@ h6{
   color: rgb(228 228 231 / var(--tw-text-opacity, 1));
 }
 
+.text-zinc-900{
+  --tw-text-opacity: 1;
+  color: rgb(24 24 27 / var(--tw-text-opacity, 1));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -1232,5 +1233,17 @@ h6{
 
   .md\:min-w-\[40\%\]{
     min-width: 40%;
+  }
+}
+
+@media (prefers-color-scheme: dark){
+  .dark\:bg-zinc-900{
+    --tw-bg-opacity: 1;
+    background-color: rgb(24 24 27 / var(--tw-bg-opacity, 1));
+  }
+
+  .dark\:text-zinc-200{
+    --tw-text-opacity: 1;
+    color: rgb(228 228 231 / var(--tw-text-opacity, 1));
   }
 }
