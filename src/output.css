@@ -638,22 +638,6 @@ h6{
   border-radius: 0.5rem;
 }
 
-.btn-rose-500{
-  background-color: #f43f5e;
-}
-
-.btn-\[\]{
-  background-color: ;
-}
-
-.btn-\[\#\]{
-  background-color: #;
-}
-
-.btn-\[\#ooo\]{
-  background-color: #ooo;
-}
-
 .btn-\[\#000\]{
   background-color: #000;
 }
@@ -1120,9 +1104,20 @@ h6{
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-cyan-500{
+  --tw-gradient-from: #06b6d4 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(6 182 212 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-cyan-900{
   --tw-gradient-to: rgb(22 78 99 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #164e63 var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.via-green-500{
+  --tw-gradient-to: rgb(34 197 94 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #22c55e var(--tw-gradient-via-position), var(--tw-gradient-to);
 }
 
 .to-pink-500{
@@ -1139,6 +1134,11 @@ h6{
 
 .bg-fixed{
   background-attachment: fixed;
+}
+
+.bg-clip-text{
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 
 .bg-center{
@@ -1254,6 +1254,10 @@ h6{
 .text-zinc-900{
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity, 1));
+}
+
+.text-transparent{
+  color: transparent;
 }
 
 .underline{
